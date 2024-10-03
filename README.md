@@ -12,10 +12,21 @@ The primary objective is to design and implement a distributed system that effic
 * Easy **scalability** and **fault tolerance** through Hadoop
 
 ## Technologies Used
-* **Hadoop** (MapReduce, HDFS)
-* **Docker** (for containerized environment setup)
-* **Python** (Mapper and Reducer scripts)
-* **Git Bash / PowerShell** (command-line interfaces)
+
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <ul>
+      <li><strong>Hadoop</strong> (MapReduce, HDFS)</li>
+      <li><strong>Docker</strong> (for containerized environment setup)</li>
+      <li><strong>Python</strong> (Mapper and Reducer scripts)</li>
+      <li><strong>Git Bash / PowerShell</strong> (command-line interfaces)</li>
+    </ul>
+  </div>
+  <div>
+    <img src="ReadMe_Ref/technologies.png" alt="Technologies" width="400" style="margin-left: 20px;" />
+  </div>
+</div>
+
 
 ## Project Architecture
 The project follows a distributed architecture with the following setup:
@@ -99,6 +110,12 @@ hadoop fs -cat output/part-00001
 ```
 ### Results and Conclusion
 This project demonstrates how Hadoop can efficiently process and search large datasets in parallel. The results of the MapReduce job provide valuable insights into the frequency and occurrence of keywords within the dataset, making this approach suitable for large-scale text analysis tasks.
+
+* Result sample:
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="ReadMe_Ref/resultSample.png" alt="ResultSample" width="600" style="margin-left: 20px;" />
+</div>
+
 
 ## Commands Cheat Sheet
 * **Start Containers**: docker start hadoop-master hadoop-slave1 hadoop-slave2
