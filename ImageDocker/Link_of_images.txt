@@ -1,2 +1,2 @@
-Pour (16GB de Ram) https://hub.docker.com/r/stephanederrode/docker-cluster-hadoop-spark-python-16
-Pour (8GB de Ram) https://hub.docker.com/r/stephanederrode/docker-cluster-hadoop-spark-python-8 
+For (16GB de Ram) https://hub.docker.com/r/stephanederrode/docker-cluster-hadoop-spark-python-16
+For (8GB de Ram) https://hub.docker.com/r/stephanederrode/docker-cluster-hadoop-spark-python-8 
