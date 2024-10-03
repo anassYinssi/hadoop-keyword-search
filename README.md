@@ -92,7 +92,7 @@ Ensure the mapper.py and reducer.py scripts are in place. Launch the job:
 ```
 hadoop jar $STREAMINGJAR -files /path/to/mapper.py,/path/to/reducer.py -mapper "python mapper.py" -reducer "python reducer.py" -input input/* -output output
 ```
-Or, forcing the two clusters during the Reduce phase:
+Or, forcing the two nodes during the Reduce phase:
 ```
 hadoop jar $STREAMINGJAR -D mapred.reduce.tasks=2 -files /path/to/mapper.py,/path/to/reducer.py -mapper "python mapper.py" -reducer "python reducer.py" -input input/* -output output
 ```
